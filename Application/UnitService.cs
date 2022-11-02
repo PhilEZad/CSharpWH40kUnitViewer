@@ -27,7 +27,7 @@ public class UnitService : IUnitService
         throw new NotImplementedException();
     }
 
-    public bool AddUnit(Unit unit)
+    public Unit AddUnit(Unit unit)
     {
         throw new NotImplementedException();
     }
