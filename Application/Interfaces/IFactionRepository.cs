@@ -2,11 +2,11 @@
 
 namespace Application.Interfaces;
 
-public interface IFactionRepistory
+public interface IFactionRepository
 {
     public List<Faction> GetAllFactions();
+    public Faction GetFactionById(int id);
     public Faction CreateFaction(Faction faction);
     public Boolean UpdateFaction(Faction faction);
-    public Faction GetFactionById(int id);
     public Boolean DeleteFaction(Faction faction);
 }

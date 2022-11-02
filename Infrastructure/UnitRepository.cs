@@ -6,46 +6,46 @@ namespace Infrastructure;
 
 public class UnitRepository : IUnitRepository
 {
-    private DatabaseContext _DBcontext;
+    private DatabaseContext _dbContext;
 
     public UnitRepository(DbContext context)
     {
-            _DBcontext = (DatabaseContext)context;
+            _dbContext = (DatabaseContext)context;
     }
     
     public List<Unit> GetAllUnits()
     {
-        return _DBcontext.UnitsTable.ToList();
+        return _dbContext.UnitsTable.ToList();
     }
 
     public List<Unit> GetUnitsByfaction(Faction faction)
     {
-        return _DBcontext.UnitsTable.Where(u=>u.Faction == faction).ToList();
+        return _dbContext.UnitsTable.Where(u=>u.Faction == faction).ToList();
     }
 
     public Unit GetUnitById(int id)
     {
-        return _DBcontext.UnitsTable.Find(id);
+        return _dbContext.UnitsTable.Find(id);
     }
 
     public Unit AddUnit(Unit unit)
     {
-        _DBcontext.UnitsTable.Add(unit);
-        _DBcontext.SaveChanges();
+        _dbContext.UnitsTable.Add(unit);
+        _dbContext.SaveChanges();
         return unit;
     }
 
     public bool UpdateUnit(Unit unit)
     {
-        _DBcontext.UnitsTable.Update(unit);
-        _DBcontext.SaveChanges();
+        _dbContext.UnitsTable.Update(unit);
+        _dbContext.SaveChanges();
         return true;
     }
 
     public bool DeleteUnit(Unit unit)
     {
-        _DBcontext.UnitsTable.Remove(unit);
-        _DBcontext.SaveChanges();
+        _dbContext.UnitsTable.Remove(unit);
+        _dbContext.SaveChanges();
         return true;
     }
 }
