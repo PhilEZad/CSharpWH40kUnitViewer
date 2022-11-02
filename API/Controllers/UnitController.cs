@@ -28,8 +28,8 @@ public class UnitController : ControllerBase
     }
     
     [HttpDelete]
-    public Boolean DeleteUnit(int id)
+    public Boolean DeleteUnit(Unit unit)
     {
-        return _unitService.DeleteUnit(id);
+        return _unitService.DeleteUnit(unit);
     }
 }

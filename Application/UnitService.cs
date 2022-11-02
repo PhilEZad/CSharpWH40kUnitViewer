@@ -11,34 +11,34 @@ public class UnitService : IUnitService
     {
         _unitRepository = unitRepository;
     }
-    
-    public List<Unit> GetUnits()
-    {
-        return _unitRepository.GetUnits();
-    }
 
     public List<Unit> GetAllUnits()
     {
-        throw new NotImplementedException();
+        return _unitRepository.GetAllUnits();
+    }
+
+    public List<Unit> GetUnitsByFaction(Faction faction)
+    {
+        return _unitRepository.GetUnitsByfaction(faction);
     }
 
     public Unit GetUnitById(int id)
     {
-        throw new NotImplementedException();
+        return _unitRepository.GetUnitById(id);
     }
 
     public Unit AddUnit(Unit unit)
     {
-        throw new NotImplementedException();
+        return _unitRepository.AddUnit(unit);
     }
 
     public bool UpdateUnit(Unit unit)
     {
-        throw new NotImplementedException();
+        return _unitRepository.DeleteUnit(unit);
     }
 
-    public bool DeleteUnit(int id)
+    public bool DeleteUnit(Unit unit)
     {
-        throw new NotImplementedException();
+        return _unitRepository.DeleteUnit(unit);
     }
 }

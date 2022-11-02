@@ -7,6 +7,6 @@ public static class DependencyResolverService
 {
     public static void RegisterInfrastructureLayer(IServiceCollection service)
     {
-        service.AddScoped<IUnitRepository, DatabaseRepository>();
+        service.AddScoped<IUnitRepository, UnitRepository>();
     }
 }
