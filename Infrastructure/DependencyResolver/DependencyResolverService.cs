@@ -5,7 +5,7 @@ namespace Infrastructure.DependencyResolver;
 
 public static class DependencyResolverService
 {
-    public static void RegisterApplicationLayer(IServiceCollection service)
+    public static void RegisterInfrastructureLayer(IServiceCollection service)
     {
         service.AddScoped<IUnitRepository, DatabaseRepository>();
     }
