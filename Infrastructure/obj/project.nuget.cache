@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dIyzaYgyZsIG2q+iEbKpKd2UnSJLKnUBKkLsZ/JlAZamoOfJKEWUljZfRpHFncds9InjA9X8m5jQAuYuOGaC1w==",
+  "dgSpecHash": "dbzJR/lBlnUVgOVV362fuZBMVkuzcby5fg1uPjhCxdcQ5iUw9wmCND1NChajEyzUHa17O8dKTudXJmnyyR/D0g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Tails\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
     "C:\\Users\\Tails\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.10\\microsoft.data.sqlite.core.6.0.10.nupkg.sha512",
     "C:\\Users\\Tails\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",
     "C:\\Users\\Tails\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.10\\microsoft.entityframeworkcore.abstractions.6.0.10.nupkg.sha512",
