@@ -13,26 +13,31 @@ public class FactionService : IFactionService
 
     public List<Faction> GetAllFactions()
     {
-        throw new NotImplementedException();
+        return _factionRepository.GetAllFactions();
     }
 
     public Faction GetFactionById(int id)
     {
-        throw new NotImplementedException();
+        return _factionRepository.GetFactionById(id);
     }
 
     public Faction CreateFaction(Faction faction)
     {
-        throw new NotImplementedException();
+        return _factionRepository.CreateFaction(faction);
     }
 
-    public Faction UpdateFaction(Faction faction)
+    public Faction UpdateFaction(int id, Faction faction)
     {
-        throw new NotImplementedException();
+        return _factionRepository.UpdateFaction(faction);
     }
 
     public bool DeleteFaction(Faction faction)
     {
-        throw new NotImplementedException();
+        return _factionRepository.DeleteFaction(faction);
+    }
+    
+    public void BuildDb()
+    {
+        _factionRepository.BuildDb();
     }
 }

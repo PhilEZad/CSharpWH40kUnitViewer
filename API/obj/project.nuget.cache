@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "YEjYDWF64Z5asfqI7LWS2g5ArssgkvLKSTCTepP3dXJTDPPaX1EDlpDzZMs/sCxg1BbaMnLfu1TKUFgxAbtblA==",
+  "dgSpecHash": "fDpe82Kjcx0YOcwlCEzUogJz9p3AKhOEg58gDr/N2eYsb9HFJgm8Pju0fpRUJ28cfVmYZ+O1ns0wWlz4UfXesg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\api\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Tails\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Tails\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
+    "C:\\Users\\Tails\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.2\\fluentvalidation.dependencyinjectionextensions.11.2.2.nupkg.sha512",
+    "C:\\Users\\Tails\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Tails\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.10\\microsoft.data.sqlite.core.6.0.10.nupkg.sha512",
     "C:\\Users\\Tails\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",
     "C:\\Users\\Tails\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.10\\microsoft.entityframeworkcore.abstractions.6.0.10.nupkg.sha512",

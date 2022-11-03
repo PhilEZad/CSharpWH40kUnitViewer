@@ -11,14 +11,14 @@ public class DatabaseContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Unit>()
-            .Property(u => u.Id)
-            .ValueGeneratedOnAdd();
-
         modelBuilder.Entity<Faction>()
             .Property(f => f.Id)
             .ValueGeneratedOnAdd();
         
+        modelBuilder.Entity<Unit>()
+            .Property(u => u.Id)
+            .ValueGeneratedOnAdd();
+
         modelBuilder.Entity<Stratagem>()
             .Property(s => s.Id)
             .ValueGeneratedOnAdd();

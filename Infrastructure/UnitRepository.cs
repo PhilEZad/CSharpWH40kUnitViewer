@@ -8,9 +8,9 @@ public class UnitRepository : IUnitRepository
 {
     private DatabaseContext _dbContext;
 
-    public UnitRepository(DbContext context)
+    public UnitRepository(DatabaseContext context)
     {
-            _dbContext = (DatabaseContext)context;
+        _dbContext = context;
     }
     
     public List<Unit> GetAllUnits()
@@ -19,6 +19,11 @@ public class UnitRepository : IUnitRepository
     }
 
     public List<Unit> GetUnitsByfaction(Faction faction)
+    {
+        throw new NotImplementedException();
+    }
+
+    public List<Unit> GetUnitsByFaction(Faction faction)
     {
         return _dbContext.UnitsTable.Where(u=>u.Faction == faction).ToList();
     }
@@ -35,11 +40,11 @@ public class UnitRepository : IUnitRepository
         return unit;
     }
 
-    public bool UpdateUnit(Unit unit)
+    public Unit UpdateUnit(Unit unit)
     {
         _dbContext.UnitsTable.Update(unit);
         _dbContext.SaveChanges();
-        return true;
+        return unit;
     }
 
     public bool DeleteUnit(Unit unit)

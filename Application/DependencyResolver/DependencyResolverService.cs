@@ -1,4 +1,5 @@
 ﻿using Application.Interfaces;
+using Domain;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Application.DependencyResolver;

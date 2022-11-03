@@ -9,5 +9,5 @@ public interface IStratagemService
     public Stratagem GetStratagemByUnit(Unit unit);
     public Stratagem CreateStratagem(Stratagem stratagem);
     public Stratagem UpdateStratagem(Stratagem stratagem);
-    public void DeleteStratagem(int id);
+    public bool DeleteStratagem(Stratagem stratagem);
 }

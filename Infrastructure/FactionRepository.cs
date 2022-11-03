@@ -24,11 +24,11 @@ public class FactionRepository : IFactionRepository
         return faction;
     }
 
-    public bool UpdateFaction(Faction faction)
+    public Faction UpdateFaction(Faction faction)
     {
         _dbContext.FactionsTable.Update(faction);
         _dbContext.SaveChanges();
-        return true;
+        return faction;
     }
 
     public Faction GetFactionById(int id)
@@ -36,10 +36,16 @@ public class FactionRepository : IFactionRepository
         return _dbContext.FactionsTable.Find(id);
     }
 
-    public bool DeleteFaction(Faction faction)
+    public Boolean DeleteFaction(Faction faction)
     {
         _dbContext.FactionsTable.Remove(faction);
         _dbContext.SaveChanges();
         return true;
+    }
+    
+    public void BuildDb()
+    {
+        _dbContext.Database.EnsureDeleted();
+        _dbContext.Database.EnsureCreated();
     }
 }

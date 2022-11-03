@@ -9,5 +9,5 @@ public interface IStratagemRepository
     public Stratagem GetStratagemByUnit(Unit unit);
     public Stratagem CreateStratagem(Stratagem stratagem);
     public Stratagem UpdateStratagem(Stratagem stratagem);
-    public void DeleteStratagem(int id);
+    public Boolean DeleteStratagem(Stratagem stratagem);
 }

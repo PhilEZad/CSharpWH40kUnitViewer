@@ -1,4 +1,5 @@
 ﻿using Application.Interfaces;
+using AutoMapper;
 using Domain;
 
 namespace Application;
@@ -6,10 +7,12 @@ namespace Application;
 public class UnitService : IUnitService 
 {
     private IUnitRepository _unitRepository;
+    private IMapper _mapper;
     
-    public UnitService(IUnitRepository unitRepository)
+    public UnitService(IUnitRepository unitRepository, IMapper mapper)
     {
         _unitRepository = unitRepository;
+        _mapper = mapper;
     }
 
     public List<Unit> GetAllUnits()
@@ -19,7 +22,7 @@ public class UnitService : IUnitService
 
     public List<Unit> GetUnitsByFaction(Faction faction)
     {
-        return _unitRepository.GetUnitsByfaction(faction);
+        return _unitRepository.GetUnitsByFaction(faction);
     }
 
     public Unit GetUnitById(int id)
@@ -32,9 +35,9 @@ public class UnitService : IUnitService
         return _unitRepository.AddUnit(unit);
     }
 
-    public bool UpdateUnit(Unit unit)
+    public Unit UpdateUnit(Unit unit)
     {
-        return _unitRepository.DeleteUnit(unit);
+        return _unitRepository.UpdateUnit(unit);
     }
 
     public bool DeleteUnit(Unit unit)

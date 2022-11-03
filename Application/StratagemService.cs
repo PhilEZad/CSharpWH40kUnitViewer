@@ -5,11 +5,12 @@ namespace Application;
 
 public class StratagemService : IStratagemService
 {
-    private IStratagemService _stratagemService;
+    private IStratagemRepository _stratagemRepository;
     
-    public StratagemService(IStratagemService stratagemService)
+    public StratagemService(IStratagemRepository stratagemRepository)
     {
-        _stratagemService = stratagemService;
+        _stratagemRepository = stratagemRepository;
+
     }
 
     public List<Stratagem> GetAllStratagems()
@@ -37,7 +38,7 @@ public class StratagemService : IStratagemService
         throw new NotImplementedException();
     }
 
-    public void DeleteStratagem(int id)
+    public bool DeleteStratagem(Stratagem stratagem)
     {
         throw new NotImplementedException();
     }

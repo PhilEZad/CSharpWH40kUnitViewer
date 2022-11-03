@@ -8,6 +8,6 @@ public interface IUnitService
     public List<Unit> GetUnitsByFaction(Faction faction);
     public Unit GetUnitById(int id);
     public Unit AddUnit(Unit unit);
-    public Boolean UpdateUnit(Unit unit);
-    public Boolean DeleteUnit(Unit unit);
+    public Unit UpdateUnit(Unit unit);
+    public bool DeleteUnit(Unit unit);
 }

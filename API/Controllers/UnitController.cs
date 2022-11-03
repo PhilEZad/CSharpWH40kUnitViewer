@@ -21,14 +21,34 @@ public class UnitController : ControllerBase
             return _unitService.GetAllUnits();
     }
     
+    [HttpGet]
+    [Route("{id}")]
+    public Unit GetUnit(int id)
+    {
+        return _unitService.GetUnitById(id);
+    }
+
+    [HttpPost]
+    [Route("{faction}")]
+    public List<Unit> GetUnitsByFaction(Faction faction)
+    {
+        return _unitService.GetUnitsByFaction(faction);
+    }
+    
     [HttpPost]
     public Unit AddUnit(Unit unit)
     {
         return _unitService.AddUnit(unit);
     }
     
+    [HttpPatch]
+    public Unit UpdateUnit(Unit unit)
+    {
+        return _unitService.UpdateUnit(unit);
+    }
+    
     [HttpDelete]
-    public Boolean DeleteUnit(Unit unit)
+    public bool DeleteUnit(Unit unit)
     {
         return _unitService.DeleteUnit(unit);
     }

@@ -14,7 +14,7 @@ public class StratagemRepository : IStratagemRepository
 
     public List<Stratagem> GetAllStratagems()
     {
-        throw new NotImplementedException();
+        return _dbContext.StrategemTable.ToList();
     }
 
     public Stratagem GetStratagemById(int id)
@@ -29,7 +29,9 @@ public class StratagemRepository : IStratagemRepository
 
     public Stratagem CreateStratagem(Stratagem stratagem)
     {
-        throw new NotImplementedException();
+        _dbContext.StrategemTable.Add(stratagem);
+        _dbContext.SaveChanges();
+        return stratagem;
     }
 
     public Stratagem UpdateStratagem(Stratagem stratagem)
@@ -37,8 +39,10 @@ public class StratagemRepository : IStratagemRepository
         throw new NotImplementedException();
     }
 
-    public void DeleteStratagem(int id)
+    public bool DeleteStratagem(Stratagem stratagem)
     {
-        throw new NotImplementedException();
+        _dbContext.StrategemTable.Remove(stratagem);
+        _dbContext.SaveChanges();
+        return true;
     }
 }
