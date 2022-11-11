@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Application\\Application.csproj": {
+    "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Tails\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Kish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tails\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Kish\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\Domain.csproj"
+              "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\Domain.csproj"
               }
             }
           }
@@ -75,17 +75,17 @@
         }
       }
     },
-    "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\Domain.csproj": {
+    "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Tails\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Kish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tails\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Kish\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -128,17 +128,17 @@
         }
       }
     },
-    "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Tails\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Kish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tails\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Kish\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -150,8 +150,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Application\\Application.csproj"
+              "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Application\\Application.csproj"
               }
             }
           }

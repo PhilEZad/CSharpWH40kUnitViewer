@@ -1604,19 +1604,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tails\\.nuget\\packages\\": {}
+    "C:\\Users\\Kish\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\api\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\api\\API.csproj",
-      "packagesPath": "C:\\Users\\Tails\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\api\\obj\\",
+      "projectPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\Kish\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tails\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Kish\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1628,11 +1628,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Application\\Application.csproj"
+            "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Application\\Application.csproj"
             },
-            "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

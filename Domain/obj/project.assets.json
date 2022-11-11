@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Tails\\.nuget\\packages\\": {}
+    "C:\\Users\\Kish\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\Tails\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tails\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\obj\\",
+      "projectPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\Kish\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tails\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Kish\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
