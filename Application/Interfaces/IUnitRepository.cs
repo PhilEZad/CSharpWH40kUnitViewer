@@ -9,5 +9,5 @@ public interface IUnitRepository
     public Unit GetUnitById(int id);
     public Unit AddUnit(Unit unit);
     public Unit UpdateUnit(Unit unit);
-    public bool DeleteUnit(Unit unit);
+    public bool DeleteUnit(int id);
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zH47c4oM4jp4HV7ZC/pWcA6qGa2muJq94CsBky8rw8ihRniJMA2ub7ZJ95uogGFpONycArY4NsIAMVPCmX/mmA==",
+  "dgSpecHash": "G770Jxp0MeRngQ/EsqpGvR51JfyAgb2p9ZDgjoZ6IPnBtepGCS3bNAzSI6OA/QCI5n6vfUQI+61tWrZC9lb1iw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kish\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Kish\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",

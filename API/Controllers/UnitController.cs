@@ -48,8 +48,9 @@ public class UnitController : ControllerBase
     }
     
     [HttpDelete]
-    public bool DeleteUnit(Unit unit)
+    [Route("{id}")]
+    public bool DeleteUnit(int id)
     {
-        return _unitService.DeleteUnit(unit);
+        return _unitService.DeleteUnit(id);
     }
 }

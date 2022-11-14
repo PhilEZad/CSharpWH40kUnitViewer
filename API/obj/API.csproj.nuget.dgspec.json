@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\API\\API.csproj": {}
+    "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\API\\API.csproj": {
+    "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\api\\API.csproj",
         "packagesPath": "C:\\Users\\Kish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\API\\obj\\",
+        "outputPath": "C:\\Users\\Kish\\Documents\\GitHub\\CSharpWH40kUnitViewer\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kish\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -6,6 +6,7 @@ public class Unit
     {
         this.Weapons = new HashSet<Weapon>();
     }
+    
     public int Id  { get; set; }
     public Faction Faction { get; set; }
     public string Name { get; set; }

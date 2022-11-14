@@ -47,9 +47,9 @@ public class UnitRepository : IUnitRepository
         return unit;
     }
 
-    public bool DeleteUnit(Unit unit)
-    {
-        _dbContext.UnitsTable.Remove(unit);
+    public bool DeleteUnit(int id)
+    { ;
+        _dbContext.UnitsTable.Remove(_dbContext.UnitsTable.Find(id));
         _dbContext.SaveChanges();
         return true;
     }

@@ -40,8 +40,8 @@ public class UnitService : IUnitService
         return _unitRepository.UpdateUnit(unit);
     }
 
-    public bool DeleteUnit(Unit unit)
+    public bool DeleteUnit(int id)
     {
-        return _unitRepository.DeleteUnit(unit);
+        return _unitRepository.DeleteUnit(id);
     }
 }
